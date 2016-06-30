@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2F73DAA71D251FDA00E489E0"
+               BuildableName = "DLSliderDemo.app"
+               BlueprintName = "DLSliderDemo"
+               ReferencedContainer = "container:DLSliderDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2F73DAC01D251FDA00E489E0"
+               BuildableName = "DLSliderDemoTests.xctest"
+               BlueprintName = "DLSliderDemoTests"
+               ReferencedContainer = "container:DLSliderDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2F73DACB1D251FDA00E489E0"
+               BuildableName = "DLSliderDemoUITests.xctest"
+               BlueprintName = "DLSliderDemoUITests"
+               ReferencedContainer = "container:DLSliderDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2F73DAA71D251FDA00E489E0"
+            BuildableName = "DLSliderDemo.app"
+            BlueprintName = "DLSliderDemo"
+            ReferencedContainer = "container:DLSliderDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2F73DAA71D251FDA00E489E0"
+            BuildableName = "DLSliderDemo.app"
+            BlueprintName = "DLSliderDemo"
+            ReferencedContainer = "container:DLSliderDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2F73DAA71D251FDA00E489E0"
+            BuildableName = "DLSliderDemo.app"
+            BlueprintName = "DLSliderDemo"
+            ReferencedContainer = "container:DLSliderDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

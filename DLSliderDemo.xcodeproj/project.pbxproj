@@ -15,6 +15,7 @@
 		2F73DABB1D251FDA00E489E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F73DAB91D251FDA00E489E0 /* LaunchScreen.storyboard */; };
 		2F73DAC61D251FDA00E489E0 /* DLSliderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F73DAC51D251FDA00E489E0 /* DLSliderDemoTests.m */; };
 		2F73DAD11D251FDA00E489E0 /* DLSliderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F73DAD01D251FDA00E489E0 /* DLSliderDemoUITests.m */; };
+		2F73DAE11D25201400E489E0 /* DLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F73DAE01D25201400E489E0 /* DLSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2F73DACC1D251FDA00E489E0 /* DLSliderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLSliderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F73DAD01D251FDA00E489E0 /* DLSliderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLSliderDemoUITests.m; sourceTree = "<group>"; };
 		2F73DAD21D251FDA00E489E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F73DADF1D25201400E489E0 /* DLSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSlider.h; sourceTree = "<group>"; };
+		2F73DAE01D25201400E489E0 /* DLSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		2F73DA9F1D251FDA00E489E0 = {
 			isa = PBXGroup;
 			children = (
+				2F73DADE1D251FEA00E489E0 /* DLSlider */,
 				2F73DAAA1D251FDA00E489E0 /* DLSliderDemo */,
 				2F73DAC41D251FDA00E489E0 /* DLSliderDemoTests */,
 				2F73DACF1D251FDA00E489E0 /* DLSliderDemoUITests */,
@@ -138,6 +142,15 @@
 				2F73DAD21D251FDA00E489E0 /* Info.plist */,
 			);
 			path = DLSliderDemoUITests;
+			sourceTree = "<group>";
+		};
+		2F73DADE1D251FEA00E489E0 /* DLSlider */ = {
+			isa = PBXGroup;
+			children = (
+				2F73DADF1D25201400E489E0 /* DLSlider.h */,
+				2F73DAE01D25201400E489E0 /* DLSlider.m */,
+			);
+			path = DLSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +220,7 @@
 				TargetAttributes = {
 					2F73DAA71D251FDA00E489E0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7C42L52533;
 					};
 					2F73DAC01D251FDA00E489E0 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -270,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F73DAE11D25201400E489E0 /* DLSlider.m in Sources */,
 				2F73DAB31D251FDA00E489E0 /* ViewController.m in Sources */,
 				2F73DAB01D251FDA00E489E0 /* AppDelegate.m in Sources */,
 				2F73DAAD1D251FDA00E489E0 /* main.m in Sources */,
@@ -415,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DLSliderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visualogies.DLSliderDemo;
@@ -426,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DLSliderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.visualogies.DLSliderDemo;
